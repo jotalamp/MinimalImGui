@@ -3,6 +3,7 @@ project(MinimalImGui)
 
 set(CMAKE_CXX_STANDARD 11)
 
+
 set(OpenGL_GL_PREFERENCE GLVND)
 
 # 3rd party libraries
