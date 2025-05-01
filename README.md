@@ -59,7 +59,7 @@ sudo dnf install -y \
 Check out sources with `--recursive` parameter for 3rd-party libraries:
 
 ```
-git clone --recursive https://github.com/Postrediori/MinimalImGui.git
+git clone --recursive https://github.com/jotalamp/MinimalImGui.git
 ```
 
 Prepare build with CMake and build executables
@@ -73,16 +73,16 @@ make install
 
 ## Running
 
-Using `make install` will copy the executable to `bundle` directory:
+Using `make install` will copy the executable to `bin` directory:
 
 ```
-cd bundle
+cd bin
 
 # Example with OpenGL 2.0:
-./bundle/MinimalImGuiOpenGl2
+./bin/MinimalImGuiOpenGl2
 
 # Example with OpenGL 3.0:
-./bundle/MinimalImGuiOpenGl3
+./bin/MinimalImGuiOpenGl3
 ```
 
 ## TODO
